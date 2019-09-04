@@ -1,0 +1,56 @@
+//1. process customer record
+
+Declare String Name
+Declare int purchaseAmount
+Declare int saletax
+Declare int totalamountdue
+Declare int taxcode
+
+saletax = 0
+Taxcode = 0 
+
+If taxcode = 0
+then saletax =0
+purchaseAmount = totalamountdue
+print (name ",", purchaseAmount, ",", totalamountdue)
+elif 
+	if taxcode = 1
+	then
+	saletax = 0.03*purchaseAmount
+	totalamountdue = saletax + purchaseAmount
+	print (name ",", purchaseAmount, ",", totalamountdue)
+elif 
+	if taxcode = 2
+	then
+	saletax = 0.05*purchaseAmount
+	totalamountdue = saletax + purchaseAmount
+	print (name ",", purchaseAmount, ",", totalamountdue)
+else 
+	saletax = 0.07*purchaseAmount
+	totalamountdue = saletax + purchaseAmount
+	print (name ",", purchaseAmount, ",", totalamountdue)
+	
+	
+	//2. Calculate employee's pay
+	
+
+Declare int employeeNumber
+Declare int payrate
+Declare int Hoursworked
+
+employeeNumber > 0
+numberHoursworked > 0 and <=60
+payrate > 0 and < = 25
+if Hoursworked > 0 an < 35, payrate < = 25
+   then
+	 weeklypay = payrate*Hoursworked
+	 print (employeeNumber, ",", $+payrate, ",", Hoursworked, ",", $+weeklypay)
+ elif
+	Hoursworked >= 35 and < = 60, payrate < = 25
+	 weeklypay = (1.5*payrate)*Hoursworked
+	 print (employeeNumber, ",", $+payrate, ",", Hoursworked, ",", $+weeklypay)
+
+else
+    print(" the employee’s weekly pay is not to be calculated" 
+
+
